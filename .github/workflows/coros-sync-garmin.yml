@@ -5,16 +5,16 @@ on:
   schedule:
     - cron: '0 0,7,20 * * ?'
 env:
-  GITHUB_NAME: XiaoSiHwang
+  GITHUB_NAME: gavu1997
   GITHUB_EMAIL: 1009326507@qq.com
   ## 佳明配置
-  GARMIN_AUTH_DOMAIN: ${{ secrets.GARMIN_AUTH_DOMAIN }}
-  GARMIN_EMAIL: ${{ secrets.GARMIN_EMAIL }}
-  GARMIN_PASSWORD: ${{ secrets.GARMIN_PASSWORD }}
+  GARMIN_AUTH_DOMAIN: CN
+  GARMIN_EMAIL: gavinxdawn@163.com
+  GARMIN_PASSWORD: gC08241004
 
   ## Coros配置
-  COROS_EMAIL: ${{ secrets.COROS_EMAIL }}
-  COROS_PASSWORD: ${{ secrets.COROS_PASSWORD }}
+  COROS_EMAIL: 15108466849
+  COROS_PASSWORD: gc08241004
   ### 按需选择，如果选择 garmin_to_coros 佳明同步高驰
   ### 如果选择 coros_to_garmin 高驰同步佳明
   RUN_TYPE: coros_to_garmin # garmin_to_coros 佳明同步高驰、 coros_to_garmin
